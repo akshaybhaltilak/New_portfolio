@@ -1,0 +1,43 @@
+.custom_about_container {
+    margin: auto;
+    width: 95%;
+    background: linear-gradient(to bottom, rgb(31, 41, 55), rgb(0, 0, 0)); /* Gray to black gradient */
+    color: rgb(255, 255, 255); /* White text for contrast */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.space-y-7 {
+    width: 100%;
+    margin: 10px 20px;
+    color: rgb(255, 255, 255); /* White text */
+}
+
+.about_img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.about_img img {
+    border-radius: 50%; /* Circular image */
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    border: 4px solid rgba(255, 255, 255, 0.8); /* Semi-transparent white border */
+}
+
+p {
+    line-height: 1.6;
+}
+
+p.text-sm, p.text-base {
+    color: rgba(255, 255, 255, 0.9); /* Slightly lighter text for subheadings */
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24+Charted&family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+.custom_navbar {
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.name_logo {
+    font-size: 1.7rem;
+    font-family: "Jacquard 24 Charted", system-ui;
+    padding: 10px;
+    color: #ededed;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.078);
+    color: white;
+}
+
+.Navbar {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.coffee_btn {
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Pacifico", cursive;
+    /* font-family: "Lobster", sans-serif; */
+    color: rgb(18, 18, 18);
+    /* background-color: rgb(255, 198, 10); */
+    background-color: #F4A261;
+    align-items: center;
+}
+
+.coffee_btn img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.header_heading {
+    font-size: 1.4rem;
+    /* font-family: "Pacifico", cursive; */
+    font-family: "Lobster", sans-serif;
+}
+.coffee_btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #0000;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.coffee_btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.coffee_btn:hover {
+    background-color: lightcoral;
+    transform: scale(1.05);
+}

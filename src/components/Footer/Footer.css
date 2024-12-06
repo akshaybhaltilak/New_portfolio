@@ -1,0 +1,14 @@
+.custom_footer{
+    padding: 10px 5px;
+}
+
+.footer_container{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: max-content;
+    justify-content: space-around;
+}
