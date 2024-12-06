@@ -44,7 +44,7 @@ const Footer = () => {
                     </div>
                     <div className="flex justify-center space-x-4 items-center">
                         <a 
-                            href="https://github.com/Shiro005" 
+                            href="https://github.com/akshaybhaltilak" 
                             aria-label="GitHub" 
                             className="hover:text-gray-600 dark:hover:text-gray-400"
                         >
@@ -53,7 +53,7 @@ const Footer = () => {
                             </svg>
                         </a>
                         <a 
-                            href="https://www.linkedin.com/in/shriyash-rulhe-655a9422a/" 
+                            href="https://www.linkedin.com/in/akshay-bhaltilak-5a8197251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                             aria-label="LinkedIn" 
                             className="hover:text-gray-600 dark:hover:text-gray-400"
                         >
@@ -62,7 +62,7 @@ const Footer = () => {
                             </svg>
                         </a>
                         <a 
-                            href="https://x.com/ShriyashRulhe?t=k4cVgM_UUFa7r5keZ0v7YA&s=09" 
+                            href="https://x.com/akshayAB09?s=09" 
                             aria-label="Twitter" 
                             className="hover:text-gray-600 dark:hover:text-gray-400"
                         >
@@ -71,15 +71,18 @@ const Footer = () => {
                             </svg>
                         </a>
                         <a 
-                            href="https://www.youtube.com/channel/UC7H82Mxei7P9m6Gw3KssINw" 
+                            href="https://www.youtube.com/@akshaybhaltilak8649" 
                             aria-label="Youtube" 
                             className="hover:text-gray-600 dark:hover:text-gray-400"
                         >
                             <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M23.498 6.174a2.936 2.936 0 0 0-2.067-2.067C19.853 3.5 12 3.5 12 3.5c0 0-7.854 0-9.431.607a2.939 2.939 0 0 0-2.067 2.067C0 8.296 0 12 0 12s0 3.704.601 5.826c.6 1.143 1.676 2.014 2.067 2.067C2.146 20.5 10 20.5 10 20.5c0 0 7.854 0 9.431-.607a2.938 2.938 0 0 0 2.067-2.067c.601-2.122.601-5.826.601-5.826s0-3.704-.601-5.826zM9.547 14.144v-3.269l3.299 1.635-3.299 1.635zM15.79 12l-6.243-3.07v6.141L15.79 12z" />
+                                <path d="M23.498 6.174a2.936 2.936 0 0 0-2.067-2.067C19.853 3.5 12 3.5 12 3.5c0 0-7.854 0-9.431.607a2.939 2.939 0 0 0-2.067 2.067C0 8.296 0 12 0 12s0 3.704.601 5.826c.6 1.143 1.676 2.014 2.067 2.067 1.577.607 9.431.607 9.431.607s7.854 0 9.431-.607c.391-.053 1.467-.924 2.067-2.067.601-2.122.601-5.826.601-5.826s0-3.704-.601-5.826zM9.23 15.214v-6.267l5.75 3.134-5.75 3.133z" />
                             </svg>
                         </a>
                     </div>
+                </div>
+                <div className="text-center mt-6 text-sm">
+                    <p>&copy; 2024 Akshay Bhaltilak. All rights reserved.</p>
                 </div>
             </div>
         </footer>
