@@ -86,7 +86,7 @@ export default function About() {
                 className="custom_about_container bg-white text-gray-900 mt-6"
             >
                 <div className="about_img">
-                    <img src="/src/assets/akshay.png" alt="Getting Started" className="rounded-lg" />
+                    <img src="./src/assets/akshay.png" alt="My-Pic" className="rounded-lg" />
                 </div>
 
                 <div className="space-y-7">
