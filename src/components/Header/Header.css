@@ -4,6 +4,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
 
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f97316; /* Orange-500 */
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.dark .header_heading {
+    color: #fb923c; /* Orange-400 for dark mode */
+}
+
 .custom_navbar {
     background-color: rgb(28, 28, 28);
     color: white;
