@@ -423,7 +423,8 @@ export const Contact = () => {
                     <div className="bg-white rounded-lg overflow-hidden h-96 shadow-md">
                       <iframe
                         title="Google Maps Location"
-                        src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodedAddress}`}
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.1646561628663!2d77.0427827!3d20.6374556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd72d84dd2492d9%3A0x57c08994b1091e96!2sAkshay%20Bhaltilak%20home!5e0!3m2!1sen!2sin!4v1717056812345"
+
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
