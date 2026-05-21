@@ -1,18 +1,16 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import { Outlet } from 'react-router-dom'
+import Home from './components/Home/Home'
 
 function App() {
 
 
   return (
-    <>
-      <Header />
-      <Outlet />
-      <Footer />
-    </>
+    <div className="bg-deep text-sand min-h-screen flex flex-col">
+      <main className="flex-1">
+        <Home />
+      </main>
+    </div>
   )
 }
 
